@@ -1,0 +1,1169 @@
+%!PS-Adobe-2.0
+%% This is a Stata generated postscript file
+%%Pages: (atend)
+0.500000 setlinewidth
+
+/cp {currentpoint} def
+
+/Helvetica findfont
+		dup length dict begin
+		{1 index /FID ne {def} {pop pop} ifelse} forall
+		/Encoding ISOLatin1Encoding def
+		currentdict
+end
+/Helvetica-Latin1 exch definefont pop
+
+/Courier findfont
+		dup length dict begin
+		{1 index /FID ne {def} {pop pop} ifelse} forall
+		/Encoding ISOLatin1Encoding def
+		currentdict
+end
+/Courier-Latin1 exch definefont pop
+
+/Courier-Oblique findfont
+		dup length dict begin
+		{1 index /FID ne {def} {pop pop} ifelse} forall
+		/Encoding ISOLatin1Encoding def
+		currentdict
+end
+/Courier-Oblique-Latin1 exch definefont pop
+
+/Courier-Bold findfont
+		dup length dict begin
+		{1 index /FID ne {def} {pop pop} ifelse} forall
+		/Encoding ISOLatin1Encoding def
+		currentdict
+end
+/Courier-Bold-Latin1 exch definefont pop
+
+/Courier-BoldOblique findfont
+		dup length dict begin
+		{1 index /FID ne {def} {pop pop} ifelse} forall
+		/Encoding ISOLatin1Encoding def
+		currentdict
+end
+/Courier-BoldOblique-Latin1 exch definefont pop
+
+/reg {/Courier-Latin1 findfont 9 scalefont setfont } def
+/it {/Courier-Oblique-Latin1 findfont 9 scalefont setfont } def
+/bf {/Courier-Bold-Latin1 findfont 9 scalefont setfont} def
+/bfit {/Courier-BoldOblique-Latin1 findfont 9 scalefont setfont} def
+
+/line {9 mul} def
+/nextline {cp exch pop 1 line sub 72 exch moveto clear} def
+
+/dash {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth mul x0 add} def
+	/ya {fsize fwidth 2 div mul y0 add} def
+
+	x0 ya moveto
+	xa ya lineto
+	xa y0 moveto
+	clear
+} def
+
+/uldash {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth mul x0 add} def
+	/ya {y0 .08 fsize mul sub} def
+
+	x0 ya moveto
+	xa ya lineto
+	xa y0 moveto
+	clear
+} def
+
+/bs {clear cp exch 9 0.600000 mul sub exch moveto clear} def
+
+/plus {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth mul 2 div x0 add} def
+	/xb {fsize fwidth mul x0 add} def
+
+	/ya {fsize fwidth 2 div mul y0 add} def
+	/yb {fsize y0 add} def
+
+	x0 ya moveto
+	xb ya lineto
+	xa y0 moveto
+	xa yb lineto
+	xb y0 moveto
+	clear
+} def
+
+/lt {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth mul 2 div x0 add} def
+	/xb {fsize fwidth mul x0 add} def
+
+	/ya {fsize fwidth 2 div mul y0 add} def
+	/yb {fsize y0 add} def
+
+	xa yb moveto
+	xa y0 lineto
+	xa ya moveto
+	xb ya lineto
+	xb y0 moveto
+	clear
+} def
+
+/rt {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth 2 div mul x0 add} def
+	/xb {fsize fwidth mul x0 add} def
+
+	/ya {fsize fwidth 2 div mul y0 add} def
+	/yb {fsize y0 add} def
+
+	xa y0 moveto
+	xa yb lineto
+	xa ya moveto
+	x0 ya lineto
+	xb y0 moveto
+	clear
+} def
+
+/bott {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth mul 2 div x0 add} def
+	/xb {fsize fwidth mul x0 add} def
+
+	/ya {fsize fwidth 2 div mul y0 add} def
+	/yb {fsize y0 add} def
+
+	x0 ya moveto
+	xb ya lineto
+	xa ya moveto
+	xa yb lineto
+	xb y0 moveto
+	clear
+} def
+
+/blc {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth 2 div mul x0 add} def
+	/xb {fsize fwidth mul x0 add} def
+
+	/ya {fsize fwidth 2 div mul y0 add} def
+	/yb {fsize y0 add} def
+
+	xa yb moveto
+	xa ya lineto
+	xb ya lineto
+	xb y0 moveto
+	clear
+} def
+
+/brc {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth 2 div mul x0 add} def
+	/xb {fsize fwidth mul x0 add} def
+
+	/ya {fsize fwidth 2 div mul y0 add} def
+	/yb {fsize y0 add} def
+
+	xa yb moveto
+	xa ya lineto
+	x0 ya lineto
+	xb y0 moveto
+	clear
+} def
+
+/topt {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth mul 2 div x0 add} def
+	/xb {fsize fwidth mul x0 add} def
+
+	/ya {fsize fwidth 2 div mul y0 add} def
+	/yb {fsize y0 add} def
+
+	x0 ya moveto
+	xb ya lineto
+	xa ya moveto
+	xa y0 lineto
+	xb y0 moveto
+	clear
+} def
+
+/tlc {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth 2 div mul x0 add} def
+	/xb {fsize fwidth mul x0 add} def
+
+	/ya {fsize fwidth 2 div mul y0 add} def
+	/yb {fsize y0 add} def
+
+	xa y0 moveto
+	xa ya lineto
+	xb ya lineto
+	xb y0 moveto
+	clear
+} def
+
+/trc {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth 2 div mul x0 add} def
+	/xb {fsize fwidth mul x0 add} def
+
+	/ya {fsize fwidth 2 div mul y0 add} def
+	/yb {fsize y0 add} def
+
+	x0 ya moveto
+	xa ya lineto
+	xa y0 lineto
+	xb y0 moveto
+	clear
+} def
+
+/bar {
+	cp
+	/y0 exch def
+	/x0 exch def
+	/fsize 9 def
+	/fwidth 0.600000 def
+
+	/xa {fsize fwidth mul 2 div x0 add} def
+	/xb {fsize fwidth mul x0 add} def
+
+	/ya {fsize fwidth 2 div mul y0 add} def
+	/yb {fsize y0 add} def
+
+	xa y0 moveto
+	xa yb lineto
+	xb y0 moveto
+	clear
+} def
+
+/Sslogo {
+	/fntscale exch def
+	/yi exch def
+	/xi exch def
+
+	/xa { xi .1 fntscale mul add } def
+	/xb { xi .2 fntscale mul add } def
+	/xc { xi .3 fntscale mul add } def
+	/xd { xi .7 fntscale mul add } def
+	/xe { xi .8 fntscale mul add } def
+	/xf { xi .9 fntscale mul add } def
+	/xg { xi  1 fntscale mul add } def
+
+	/ya { yi .2 fntscale mul add } def
+	/yb { yi .3 fntscale mul add } def
+	/yc { yi .4 fntscale mul add } def
+	/yd { yi .6 fntscale mul add } def
+	/ye { yi .7 fntscale mul add } def
+	/yf { yi .8 fntscale mul add } def
+	/yg { yi  1 fntscale mul add } def
+
+	/rsm { .1 fntscale mul } def
+	/rlg { .3 fntscale mul } def
+
+	gsave
+	newpath
+	xi yi moveto
+	xg yi xg yb rlg arcto
+	xg yd xd yd rlg arcto
+	xb yd xb ye rsm arcto
+	xb yf xc yf rsm arcto
+	xf yf lineto
+	xg yg lineto
+	xi yg xi ye rlg arcto
+	xi yc xc yc rlg arcto
+	xe yc xe yb rsm arcto
+	xe ya xd ya rsm arcto
+	xa ya lineto
+	closepath
+	1 setgray
+	fill
+	grestore
+	xg yi moveto
+	clear
+} def
+
+/Stlogo {
+	/fntscale exch def
+	/yi exch def
+	/xi exch def
+
+	/xa { xi .1 fntscale mul add } def
+	/xb { xi .3 fntscale mul add } def
+	/xc { xi .5 fntscale mul add } def
+	/xd { xi .7 fntscale mul add } def
+	/xe { xi .8 fntscale mul add } def
+
+	/ya { yi .8 fntscale mul add } def
+	/yb { yi  1 fntscale mul add } def
+
+	gsave
+	newpath
+	xb yi moveto
+	xc yi lineto
+	xc ya lineto
+	xd ya lineto
+	xe yb lineto
+	xa yb lineto
+	xi ya lineto
+	xb ya lineto
+	closepath
+	1 setgray
+	fill
+	grestore
+	xe yi moveto
+	clear
+} def
+
+/Salogo {
+	/fntscale exch def
+	/yi exch def
+	/xi exch def
+
+	/xa { xi .1 fntscale mul add } def
+	/xb { xi .2 fntscale mul add } def
+	/xc { xi .3 fntscale mul add } def
+	/xd { xi .7 fntscale mul add } def
+	/xe { xi .8 fntscale mul add } def
+	/xf { xi  1 fntscale mul add } def
+
+	/ya { yi .2 fntscale mul add } def
+	/yb { yi .3 fntscale mul add } def
+	/yc { yi .4 fntscale mul add } def
+	/yd { yi .6 fntscale mul add } def
+	/ye { yi .7 fntscale mul add } def
+	/yf { yi .8 fntscale mul add } def
+	/yg { yi  1 fntscale mul add } def
+
+	/rsm { .1 fntscale mul } def
+	/rlg { .3 fntscale mul } def
+
+	gsave
+	newpath
+	xf yi moveto
+	xi yi xi yb rlg arcto
+	xi yd xc yd rlg arcto
+	xe yd lineto
+	xe ye lineto
+	xe yf xd yf rsm arcto
+	xi yf lineto
+	xa yg lineto
+	xf yg xf ye rlg arcto
+	xf yi lineto
+	xe ya moveto
+	xe yc lineto
+	xb yc xb yb rsm arcto
+	xb ya xc ya rsm arcto
+	xe ya lineto
+	closepath
+	1 setgray
+	fill
+	grestore
+	xf yi moveto
+	clear
+} def
+
+/Slogobox {
+	/fntscale exch def
+	/yi exch def
+	/xi exch def
+
+	/xsize {  5.0 fntscale mul .075 3 fntscale mul mul sub } def
+	/ysize {  1.4 fntscale mul } def
+
+	gsave
+	0 setgray
+
+	xi yi moveto
+	xi xsize add yi lineto
+	0 ysize rlineto
+	-1 xsize mul 0 rlineto
+	0 -1 ysize mul rlineto
+	fill
+	xi yi moveto
+	grestore
+	gsave
+	xi xsize .25 fntscale mul sub add
+	yi ysize .25 fntscale mul sub add
+	moveto
+	/Helvetica-Latin1 findfont .25 fntscale mul scalefont
+	setfont
+	1 setgray
+	(\256) show
+	grestore
+	xi yi moveto
+	clear
+} def
+
+/Slogo {
+	/fntsize exch 2 mul def
+	/yi exch def
+	/xi exch def
+	/x0 xi def
+	/y0 yi def
+
+	/fscale { 5 7 div fntsize mul } def
+
+	gsave
+	newpath
+	xi yi .25 fscale mul sub moveto
+	cp fscale Slogobox
+	cp .2 fscale mul add exch .2 fscale mul add exch moveto
+	cp fscale Sslogo
+	cp exch .075 fscale mul sub exch fscale Stlogo
+	cp exch .075 fscale mul sub exch fscale Salogo
+	cp fscale Stlogo
+	cp exch .075 fscale mul sub exch fscale Salogo
+	closepath
+	grestore
+	nextline
+	x0 y0 1 line sub moveto
+	/Helvetica-Bold findfont .42 fscale mul scalefont setfont
+	(Statistics/Data Analysis) show
+	clear
+} def
+
+/error {0.000000 0.000000 0.000000 setrgbcolor} def
+/standard {0.000000 0.000000 0.000000 setrgbcolor} def
+/link {0.000000 0.000000 0.000000 setrgbcolor} def
+/results {0.000000 0.000000 0.000000 setrgbcolor} def
+/input {0.000000 0.000000 0.000000 setrgbcolor} def
+/hilite {0.000000 0.000000 0.000000 setrgbcolor} def
+
+newpath
+%%Page: Page 1
+0.500000 setlinewidth
+72 792 2 line sub moveto
+reg (  Thursday March 7 18:04:25 2019   Page 1) show
+72 720 1 line sub moveto
+cp 9 Slogo nextline nextline
+ nextline
+results bf (  ___  ____  ____  ____  ____ \(R\)) show  nextline
+results bf ( /__    /   ____/   /   ____/) show  nextline
+results bf (___/   /   /___/   /   /___/   15.0) show standard reg (   Copyright 1985-2017 StataCorp LLC) show  nextline
+standard reg (  ) show results bf (Statistics/Data Analysis) show standard reg (            StataCorp) show  nextline
+standard reg (                                      4905 Lakeway Drive) show  nextline
+standard reg (                                      College Station, Texas 77845 USA) show  nextline
+standard reg (                                      800-STATA-PC        ) show link reg (http://www.stata.com) show bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto  nextline
+standard reg (                                      979-696-4600        ) show link reg (stata@stata.com) show bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto  nextline
+standard reg (                                      979-696-4601 \(fax\)) show  nextline
+ nextline
+standard reg (999-user Stata network license expires 31 Jul 2019:) show  nextline
+standard reg (       Serial number:  501509201656) show  nextline
+standard reg (         Licensed to:  i love stata) show  nextline
+standard reg (                       lets run some regressions) show  nextline
+ nextline
+standard reg (Notes:) show  nextline
+standard reg (      1.  Unicode is supported; see ) show link reg (help unicode_advice) show bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto standard reg (.) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (1) show moveto
+input reg (. do "/tmp/SD04495.000000") show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (2) show moveto
+input reg (. cd "C:\\Users\\svd30\\Downloads" //changing working directory to where I have the data) show  nextline
+error bf (unable to change to C:\\Users\\svd30\\Downloads) show  nextline
+link reg (r\(170\);) show bs bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto  nextline
+ nextline
+standard reg (end of do-file) show  nextline
+ nextline
+link reg (r\(170\);) show bs bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (3) show moveto
+input reg (. cd "/home/u0/Downloads") show  nextline
+results bf (/home/u0/Downloads) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (4) show moveto
+input reg (. do "/tmp/SD04495.000000") show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (5) show moveto
+input reg (. use child_mortality.dta) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (6) show moveto
+input reg (. notes //so cm is a percent, femlit is a percent but tfr could be tricky because that looks like a number, not a percent) show  nextline
+ nextline
+results bf (_dta:) show  nextline
+standard reg (  1.  Chandan Mukherjee, Howard White, and Marc Whyte, Econometrics and Data Analysis for Developing Counties.) show  nextline
+ nextline
+results bf (cm:) show  nextline
+standard reg (  1.  The number of deaths of children under age 5 in a year per 1000 live births.) show  nextline
+ nextline
+results bf (femlit:) show  nextline
+standard reg (  1.  In percent) show  nextline
+ nextline
+results bf (tfr:) show  nextline
+standard reg (  1.  Average number of children born to a woman using age specific fertility rates for a given year \(1980-85\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (7) show moveto
+input reg (. des //mostly to see the size of this dataset since the notes told me info about the variables) show  nextline
+ nextline
+standard reg (Contains data from ) show results bf (child_mortality.dta) show  nextline
+standard reg (  obs:) show results bf (            64                          ) show  nextline
+standard reg ( vars:) show results bf (             4                          23 Feb 2016 20:53) show  nextline
+standard reg ( size:) show results bf (           576                          \(_dta has notes\)) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (              storage   display    value) show  nextline
+standard reg (variable name   type    format     label      variable label) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+results bf (cm             ) show standard reg ( int     %8.0g               * ) show results bf (Child Mortality) show  nextline
+results bf (femlit         ) show standard reg ( byte    %8.0g               * ) show results bf (Female Literacy) show  nextline
+results bf (pgnp           ) show standard reg ( int     %8.0g                 ) show results bf (Per Capita GNP 1980) show  nextline
+results bf (tfr            ) show standard reg ( float   %9.0g               * ) show results bf (Total Fertility Rate) show  nextline
+results bf (                                            ) show standard reg (* indicated variables have notes) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (Sorted by: ) show  nextline
+ nextline
+stroke showpage
+newpath
+%%Page: Page 2
+0.500000 setlinewidth
+72 792 2 line sub moveto
+reg (  Thursday March 7 18:04:25 2019   Page 2) show
+72 720 1 line sub moveto
+cp cp exch 10 sub exch moveto standard reg (8) show moveto
+input reg (. sum //to see the min/max/mean for each variable so that I will have a bit more of an idea if the numbers I get from my m) show  nextline
+input reg (> odels are reasonable) show  nextline
+ nextline
+standard reg (    Variable ) show bar standard reg (        Obs        Mean    Std. Dev.       Min        Max) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (          cm ) show bar results bf (         64       141.5    75.97807         12        312) show  nextline
+standard reg (      femlit ) show bar results bf (         64     51.1875    26.00786          9         95) show  nextline
+standard reg (        pgnp ) show bar results bf (         64     1401.25    2725.696        120      19830) show  nextline
+standard reg (         tfr ) show bar results bf (         64    5.549687    1.508993       1.69       8.49) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (9) show moveto
+input reg (. ) show  nextline
+cp cp exch 10 sub exch moveto standard reg (10) show moveto
+input reg (. *Model 1 - regress child mortality on per capita gnp) show  nextline
+cp cp exch 10 sub exch moveto standard reg (11) show moveto
+input reg (. reg cm pgnp) show  nextline
+ nextline
+standard reg (      Source ) show bar standard reg (       SS           df       MS      Number of obs   =) show results bf (        64) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   F\(1, 62\)        = ) show results bf (    12.36) show  nextline
+standard reg (       Model ) show bar standard reg ( ) show results bf ( 60449.4605         1  60449.4605   ) show standard reg (Prob > F        =) show results bf (    0.0008) show  nextline
+standard reg (    Residual ) show bar standard reg ( ) show results bf ( 303228.539        62  4890.78289   ) show standard reg (R-squared       =) show results bf (    0.1662) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   Adj R-squared   =) show results bf (    0.1528) show  nextline
+standard reg (       Total ) show bar standard reg ( ) show results bf (     363678        63  5772.66667   ) show standard reg (Root MSE        =   ) show results bf ( 69.934) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (          cm ) show bar standard reg (      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (        pgnp ) show bar results bf (  -.0113645   .0032325    -3.52   0.001    -.0178262   -.0049027) show  nextline
+standard reg (       _cons ) show bar results bf (   157.4244   9.845583    15.99   0.000     137.7434    177.1055) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (12) show moveto
+input reg (. estimates store model1) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (13) show moveto
+input reg (. ) show  nextline
+cp cp exch 10 sub exch moveto standard reg (14) show moveto
+input reg (. *Model 2 - regress child mortality on the log of per capita gnp) show  nextline
+cp cp exch 10 sub exch moveto standard reg (15) show moveto
+input reg (. gen lnpgnp = ln\(pgnp\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (16) show moveto
+input reg (. reg cm lnpgnp) show  nextline
+ nextline
+standard reg (      Source ) show bar standard reg (       SS           df       MS      Number of obs   =) show results bf (        64) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   F\(1, 62\)        = ) show results bf (    64.10) show  nextline
+standard reg (       Model ) show bar standard reg ( ) show results bf ( 184866.972         1  184866.972   ) show standard reg (Prob > F        =) show results bf (    0.0000) show  nextline
+standard reg (    Residual ) show bar standard reg ( ) show results bf ( 178811.028        62  2884.04884   ) show standard reg (R-squared       =) show results bf (    0.5083) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   Adj R-squared   =) show results bf (    0.5004) show  nextline
+standard reg (       Total ) show bar standard reg ( ) show results bf (     363678        63  5772.66667   ) show standard reg (Root MSE        =   ) show results bf ( 53.703) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (          cm ) show bar standard reg (      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (      lnpgnp ) show bar results bf (  -51.35649   6.414562    -8.01   0.000    -64.17902   -38.53397) show  nextline
+standard reg (       _cons ) show bar results bf (   478.2777   42.59671    11.23   0.000     393.1281    563.4273) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (17) show moveto
+input reg (. estimates store model2) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (18) show moveto
+input reg (. ) show  nextline
+cp cp exch 10 sub exch moveto standard reg (19) show moveto
+input reg (. *Model 3 - regress child mortality on per capita gnp and per capita gnp squared) show  nextline
+cp cp exch 10 sub exch moveto standard reg (20) show moveto
+input reg (. gen pgnp2 = pgnp^2) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (21) show moveto
+input reg (. reg cm pgnp pgnp2) show  nextline
+ nextline
+standard reg (      Source ) show bar standard reg (       SS           df       MS      Number of obs   =) show results bf (        64) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   F\(2, 61\)        = ) show results bf (    15.88) show  nextline
+standard reg (       Model ) show bar standard reg ( ) show results bf (  124502.02         2    62251.01   ) show standard reg (Prob > F        =) show results bf (    0.0000) show  nextline
+standard reg (    Residual ) show bar standard reg ( ) show results bf (  239175.98        61   3920.9177   ) show standard reg (R-squared       =) show results bf (    0.3423) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   Adj R-squared   =) show results bf (    0.3208) show  nextline
+standard reg (       Total ) show bar standard reg ( ) show results bf (     363678        63  5772.66667   ) show standard reg (Root MSE        =   ) show results bf ( 62.617) show  nextline
+ nextline
+stroke showpage
+newpath
+%%Page: Page 3
+0.500000 setlinewidth
+72 792 2 line sub moveto
+reg (  Thursday March 7 18:04:25 2019   Page 3) show
+72 720 1 line sub moveto
+dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (          cm ) show bar standard reg (      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (        pgnp ) show bar results bf (  -.0424043    .008207    -5.17   0.000    -.0588152   -.0259934) show  nextline
+standard reg (       pgnp2 ) show bar results bf (   1.82e-06   4.49e-07     4.04   0.000     9.18e-07    2.71e-06) show  nextline
+standard reg (       _cons ) show bar results bf (   184.0704   11.00796    16.72   0.000     162.0586    206.0822) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (22) show moveto
+input reg (. estimates store model3) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (23) show moveto
+input reg (. ) show  nextline
+cp cp exch 10 sub exch moveto standard reg (24) show moveto
+input reg (. *Model 4 - piece-wise linear with break at pgpn = 1000) show  nextline
+cp cp exch 10 sub exch moveto standard reg (25) show moveto
+input reg (. reg cm pgnp if pgnp < 1000) show  nextline
+ nextline
+standard reg (      Source ) show bar standard reg (       SS           df       MS      Number of obs   =) show results bf (        40) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   F\(1, 38\)        = ) show results bf (    13.77) show  nextline
+standard reg (       Model ) show bar standard reg ( ) show results bf ( 46354.4197         1  46354.4197   ) show standard reg (Prob > F        =) show results bf (    0.0007) show  nextline
+standard reg (    Residual ) show bar standard reg ( ) show results bf ( 127951.955        38  3367.15672   ) show standard reg (R-squared       =) show results bf (    0.2659) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   Adj R-squared   =) show results bf (    0.2466) show  nextline
+standard reg (       Total ) show bar standard reg ( ) show results bf ( 174306.375        39  4469.39423   ) show standard reg (Root MSE        =   ) show results bf ( 58.027) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (          cm ) show bar standard reg (      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (        pgnp ) show bar results bf (  -.1553836   .0418785    -3.71   0.001    -.2401622    -.070605) show  nextline
+standard reg (       _cons ) show bar results bf (    242.153   19.78244    12.24   0.000     202.1056    282.2005) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (26) show moveto
+input reg (. reg cm pgnp if pgnp > 1000 //so here I just ran two regressions to see how different the slopes are - they are different) show  nextline
+input reg (> !) show  nextline
+ nextline
+standard reg (      Source ) show bar standard reg (       SS           df       MS      Number of obs   =) show results bf (        24) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   F\(1, 22\)        = ) show results bf (     2.03) show  nextline
+standard reg (       Model ) show bar standard reg ( ) show results bf ( 4557.28517         1  4557.28517   ) show standard reg (Prob > F        =) show results bf (    0.1685) show  nextline
+standard reg (    Residual ) show bar standard reg ( ) show results bf ( 49439.3398        22  2247.24272   ) show standard reg (R-squared       =) show results bf (    0.0844) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   Adj R-squared   =) show results bf (    0.0428) show  nextline
+standard reg (       Total ) show bar standard reg ( ) show results bf (  53996.625        23  2347.67935   ) show standard reg (Root MSE        =   ) show results bf ( 47.405) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (          cm ) show bar standard reg (      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (        pgnp ) show bar results bf (  -.0035427   .0024877    -1.42   0.168    -.0087019    .0016166) show  nextline
+standard reg (       _cons ) show bar results bf (   92.89177   12.27999     7.56   0.000     67.42464    118.3589) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (27) show moveto
+input reg (. *The slope \(_cons\) for a per capita gnp of less than 1000 is 242 while the slope for a per capita gnp of greater than 10) show  nextline
+input reg (> 00 is 93) show  nextline
+cp cp exch 10 sub exch moveto standard reg (28) show moveto
+input reg (. twoway scatter cm pgnp if pgnp < 1000) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (29) show moveto
+input reg (. twoway scatter cm pgnp if pgnp > 1000 //just another way to see that the slopes are different) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (30) show moveto
+input reg (. twoway scatter cm pgnp //so as I expect from common sense, lower per capita gnp means higher child mortality.  Looks lik) show  nextline
+input reg (> e there are only two observations above a per capita gnp of 5000 and the highest per capita gnp \(20,000\) has a low child) show  nextline
+input reg (>  mortality rate, which I expect.) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (31) show moveto
+input reg (. twoway \(scatter cm pgnp\), xline\(1000\) //) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (32) show moveto
+input reg (. gen pgnp1 = pgnp < 1000 //dummy for per capita gnp less than 1000) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (33) show moveto
+input reg (. gen pgnp11 = pgnp > 1000 //dummy for per capita gnp greater than 1000) show  nextline
+ nextline
+stroke showpage
+newpath
+%%Page: Page 4
+0.500000 setlinewidth
+72 792 2 line sub moveto
+reg (  Thursday March 7 18:04:25 2019   Page 4) show
+72 720 1 line sub moveto
+cp cp exch 10 sub exch moveto standard reg (34) show moveto
+input reg (. gen pgnp3 = \(pgnp1 * \(pgnp-1000\)\) //accounting for the intercept \(subtract 1000\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (35) show moveto
+input reg (. ) show  nextline
+cp cp exch 10 sub exch moveto standard reg (36) show moveto
+input reg (. reg cm pgnp pgnp3) show  nextline
+ nextline
+standard reg (      Source ) show bar standard reg (       SS           df       MS      Number of obs   =) show results bf (        64) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   F\(2, 61\)        = ) show results bf (    32.02) show  nextline
+standard reg (       Model ) show bar standard reg ( ) show results bf ( 186260.531         2  93130.2653   ) show standard reg (Prob > F        =) show results bf (    0.0000) show  nextline
+standard reg (    Residual ) show bar standard reg ( ) show results bf ( 177417.469        61  2908.48311   ) show standard reg (R-squared       =) show results bf (    0.5122) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   Adj R-squared   =) show results bf (    0.4962) show  nextline
+standard reg (       Total ) show bar standard reg ( ) show results bf (     363678        63  5772.66667   ) show standard reg (Root MSE        =   ) show results bf (  53.93) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (          cm ) show bar standard reg (      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (        pgnp ) show bar results bf (  -.0034857   .0027657    -1.26   0.212     -.009016    .0020446) show  nextline
+standard reg (       pgnp3 ) show bar results bf (  -.1488247   .0226281    -6.58   0.000    -.1940725    -.103577) show  nextline
+standard reg (       _cons ) show bar results bf (   92.29583   12.47823     7.40   0.000     67.34408    117.2476) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (37) show moveto
+input reg (. estimates store model4) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (38) show moveto
+input reg (. ) show  nextline
+standard reg (end of do-file) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (39) show moveto
+input reg (. estimates restore model3) show  nextline
+standard reg (\(results ) show link reg (model3) show bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto standard reg ( are active now\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (40) show moveto
+input reg (. predict cmhat) show  nextline
+standard reg (\(option ) show standard bf (xb) show standard reg ( assumed; fitted values\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (41) show moveto
+input reg (. do "/tmp/SD04495.000000") show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (42) show moveto
+input reg (. scatter twoway cmhat pgnp) show  nextline
+error bf (variable ) show error bf (twoway) show error bf ( not found) show  nextline
+link reg (r\(111\);) show bs bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto  nextline
+ nextline
+standard reg (end of do-file) show  nextline
+ nextline
+link reg (r\(111\);) show bs bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (43) show moveto
+input reg (. scatter cmhat pgnp) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (44) show moveto
+input reg (. graph save Graph "/home/u0/Downloads/model3graph1.gph") show  nextline
+standard reg (\(file /home/u0/Downloads/model3graph1.gph saved\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (45) show moveto
+input reg (. do "/tmp/SD04495.000000") show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (46) show moveto
+input reg (. twoway scatter cmhat pgnp) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (47) show moveto
+input reg (. ) show  nextline
+standard reg (end of do-file) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (48) show moveto
+input reg (. do "/tmp/SD04495.000000") show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (49) show moveto
+input reg (. twoway scatter cm cmhat pgnp) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (50) show moveto
+input reg (. ) show  nextline
+standard reg (end of do-file) show  nextline
+ nextline
+stroke showpage
+newpath
+%%Page: Page 5
+0.500000 setlinewidth
+72 792 2 line sub moveto
+reg (  Thursday March 7 18:04:25 2019   Page 5) show
+72 720 1 line sub moveto
+cp cp exch 10 sub exch moveto standard reg (51) show moveto
+input reg (. graph save Graph "/home/u0/Downloads/model3graph2.gph") show  nextline
+standard reg (\(file /home/u0/Downloads/model3graph2.gph saved\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (52) show moveto
+input reg (. do "/tmp/SD04495.000000") show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (53) show moveto
+input reg (. reg cm c.pgnp##c.pgnp) show  nextline
+ nextline
+standard reg (      Source ) show bar standard reg (       SS           df       MS      Number of obs   =) show results bf (        64) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   F\(2, 61\)        = ) show results bf (    15.88) show  nextline
+standard reg (       Model ) show bar standard reg ( ) show results bf (  124502.02         2  62251.0098   ) show standard reg (Prob > F        =) show results bf (    0.0000) show  nextline
+standard reg (    Residual ) show bar standard reg ( ) show results bf (  239175.98        61  3920.91771   ) show standard reg (R-squared       =) show results bf (    0.3423) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   Adj R-squared   =) show results bf (    0.3208) show  nextline
+standard reg (       Total ) show bar standard reg ( ) show results bf (     363678        63  5772.66667   ) show standard reg (Root MSE        =   ) show results bf ( 62.617) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (           cm ) show bar standard reg (      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (         pgnp ) show bar results bf (  -.0424043    .008207    -5.17   0.000    -.0588152   -.0259934) show  nextline
+standard reg (              ) show bar  nextline
+standard reg (c.pgnp#c.pgnp ) show bar results bf (   1.82e-06   4.49e-07     4.04   0.000     9.18e-07    2.71e-06) show  nextline
+standard reg (              ) show bar  nextline
+standard reg (        _cons ) show bar results bf (   184.0704   11.00796    16.72   0.000     162.0586    206.0822) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (54) show moveto
+input reg (. ) show  nextline
+standard reg (end of do-file) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (55) show moveto
+input reg (. do "/tmp/SD04495.000000") show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (56) show moveto
+input reg (. margins, at\(pgnp=\(0 1000 to 20000\)\)) show  nextline
+ nextline
+standard reg (Adjusted predictions                            Number of obs     = ) show results bf (        64) show  nextline
+standard reg (Model VCE    : ) show results bf (OLS) show  nextline
+ nextline
+standard reg (Expression   : ) show results bf (Linear prediction, predict\(\)) show  nextline
+ nextline
+standard reg (1._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (           0) show  nextline
+ nextline
+standard reg (2._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        1000) show  nextline
+ nextline
+standard reg (3._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        2000) show  nextline
+ nextline
+standard reg (4._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        3000) show  nextline
+ nextline
+standard reg (5._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        4000) show  nextline
+ nextline
+standard reg (6._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        5000) show  nextline
+ nextline
+standard reg (7._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        6000) show  nextline
+ nextline
+standard reg (8._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        7000) show  nextline
+ nextline
+standard reg (9._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        8000) show  nextline
+ nextline
+standard reg (10._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (        9000) show  nextline
+ nextline
+standard reg (11._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       10000) show  nextline
+ nextline
+standard reg (12._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       11000) show  nextline
+ nextline
+standard reg (13._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       12000) show  nextline
+ nextline
+standard reg (14._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       13000) show  nextline
+ nextline
+standard reg (15._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       14000) show  nextline
+ nextline
+standard reg (16._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       15000) show  nextline
+ nextline
+standard reg (17._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       16000) show  nextline
+ nextline
+standard reg (18._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       17000) show  nextline
+ nextline
+stroke showpage
+newpath
+%%Page: Page 6
+0.500000 setlinewidth
+72 792 2 line sub moveto
+reg (  Thursday March 7 18:04:25 2019   Page 6) show
+72 720 1 line sub moveto
+standard reg (19._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       18000) show  nextline
+ nextline
+standard reg (20._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       19000) show  nextline
+ nextline
+standard reg (21._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       20000) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (             ) show bar standard reg (            Delta-method) show  nextline
+standard reg (             ) show bar standard reg (     Margin   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (         _at ) show bar  nextline
+standard reg (          1  ) show bar results bf (   184.0704   11.00796    16.72   0.000     162.0586    206.0822) show  nextline
+standard reg (          2  ) show bar results bf (   143.4823   7.938501    18.07   0.000     127.6083    159.3563) show  nextline
+standard reg (          3  ) show bar results bf (   106.5266   10.62263    10.03   0.000     85.28536    127.7679) show  nextline
+standard reg (          4  ) show bar results bf (   73.20333   15.37837     4.76   0.000     42.45238    103.9543) show  nextline
+standard reg (          5  ) show bar results bf (   43.51246   20.11682     2.16   0.034     3.286397    83.73853) show  nextline
+standard reg (          6  ) show bar results bf (     17.454   24.35091     0.72   0.476    -31.23865    66.14664) show  nextline
+standard reg (          7  ) show bar results bf (  -4.972057   27.95946    -0.18   0.859    -60.88045    50.93633) show  nextline
+standard reg (          8  ) show bar results bf (   -23.7657   30.92285    -0.77   0.445    -85.59977    38.06836) show  nextline
+standard reg (          9  ) show bar results bf (  -38.92694   33.26454    -1.17   0.246    -105.4435    27.58962) show  nextline
+standard reg (         10  ) show bar results bf (  -50.45577   35.03694    -1.44   0.155    -120.5165    19.60491) show  nextline
+standard reg (         11  ) show bar results bf (  -58.35219   36.32044    -1.61   0.113    -130.9794    14.27502) show  nextline
+standard reg (         12  ) show bar results bf (   -62.6162   37.22794    -1.68   0.098    -137.0581    11.82567) show  nextline
+standard reg (         13  ) show bar results bf (   -63.2478   37.91168    -1.67   0.100    -139.0569    12.56128) show  nextline
+standard reg (         14  ) show bar results bf (    -60.247   38.56968    -1.56   0.123    -137.3718    16.87785) show  nextline
+standard reg (         15  ) show bar results bf (  -53.61378   39.44692    -1.36   0.179    -132.4928    25.26522) show  nextline
+standard reg (         16  ) show bar results bf (  -43.34816   40.82432    -1.06   0.293    -124.9814    38.28511) show  nextline
+standard reg (         17  ) show bar results bf (  -29.45013   42.99038    -0.69   0.496    -115.4147    56.51445) show  nextline
+standard reg (         18  ) show bar results bf (  -11.91969   46.19965    -0.26   0.797    -104.3016    80.46221) show  nextline
+standard reg (         19  ) show bar results bf (    9.24316   50.63474     0.18   0.856    -92.00727    110.4936) show  nextline
+standard reg (         20  ) show bar results bf (   34.03842    56.3913     0.60   0.548    -78.72295    146.7998) show  nextline
+standard reg (         21  ) show bar results bf (   62.46608   63.48979     0.98   0.329    -64.48959    189.4218) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (57) show moveto
+input reg (. ) show  nextline
+standard reg (end of do-file) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (58) show moveto
+input reg (. do "/tmp/SD04495.000000") show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (59) show moveto
+input reg (. marginsplot) show  nextline
+ nextline
+standard reg (  Variables that uniquely identify margins: pgnp) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (60) show moveto
+input reg (. ) show  nextline
+standard reg (end of do-file) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (61) show moveto
+input reg (. graph save Graph "/home/u0/Downloads/model3graph3.gph") show  nextline
+standard reg (\(file /home/u0/Downloads/model3graph3.gph saved\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (62) show moveto
+input reg (. estimates restore model4) show  nextline
+standard reg (\(results ) show link reg (model4) show bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto standard reg ( are active now\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (63) show moveto
+input reg (. predict cmhathat) show  nextline
+standard reg (\(option ) show standard bf (xb) show standard reg ( assumed; fitted values\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (64) show moveto
+input reg (. graph twoway \(scatter cm pgnp\) \(line cmhathat pgnp, sort\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (65) show moveto
+input reg (. graph save Graph "/home/u0/Downloads/Model4graph1.gph") show  nextline
+standard reg (\(file /home/u0/Downloads/Model4graph1.gph saved\)) show  nextline
+ nextline
+stroke showpage
+newpath
+%%Page: Page 7
+0.500000 setlinewidth
+72 792 2 line sub moveto
+reg (  Thursday March 7 18:04:25 2019   Page 7) show
+72 720 1 line sub moveto
+cp cp exch 10 sub exch moveto standard reg (66) show moveto
+input reg (. scatter cmhat pgnp) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (67) show moveto
+input reg (. estimates restore model3) show  nextline
+standard reg (\(results ) show link reg (model3) show bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto standard reg ( are active now\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (68) show moveto
+input reg (. scatter cmhat pgnp) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (69) show moveto
+input reg (. twoway scatter cm cmhat pgnp) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (70) show moveto
+input reg (. reg cm c.pgnp##c.pgnp) show  nextline
+ nextline
+standard reg (      Source ) show bar standard reg (       SS           df       MS      Number of obs   =) show results bf (        64) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   F\(2, 61\)        = ) show results bf (    15.88) show  nextline
+standard reg (       Model ) show bar standard reg ( ) show results bf (  124502.02         2  62251.0098   ) show standard reg (Prob > F        =) show results bf (    0.0000) show  nextline
+standard reg (    Residual ) show bar standard reg ( ) show results bf (  239175.98        61  3920.91771   ) show standard reg (R-squared       =) show results bf (    0.3423) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   Adj R-squared   =) show results bf (    0.3208) show  nextline
+standard reg (       Total ) show bar standard reg ( ) show results bf (     363678        63  5772.66667   ) show standard reg (Root MSE        =   ) show results bf ( 62.617) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (           cm ) show bar standard reg (      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (         pgnp ) show bar results bf (  -.0424043    .008207    -5.17   0.000    -.0588152   -.0259934) show  nextline
+standard reg (              ) show bar  nextline
+standard reg (c.pgnp#c.pgnp ) show bar results bf (   1.82e-06   4.49e-07     4.04   0.000     9.18e-07    2.71e-06) show  nextline
+standard reg (              ) show bar  nextline
+standard reg (        _cons ) show bar results bf (   184.0704   11.00796    16.72   0.000     162.0586    206.0822) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (71) show moveto
+input reg (. margins, at\(pgnp=\(0 1000 to 20000\)\)) show  nextline
+ nextline
+standard reg (Adjusted predictions                            Number of obs     = ) show results bf (        64) show  nextline
+standard reg (Model VCE    : ) show results bf (OLS) show  nextline
+ nextline
+standard reg (Expression   : ) show results bf (Linear prediction, predict\(\)) show  nextline
+ nextline
+standard reg (1._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (           0) show  nextline
+ nextline
+standard reg (2._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        1000) show  nextline
+ nextline
+standard reg (3._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        2000) show  nextline
+ nextline
+standard reg (4._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        3000) show  nextline
+ nextline
+standard reg (5._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        4000) show  nextline
+ nextline
+standard reg (6._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        5000) show  nextline
+ nextline
+standard reg (7._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        6000) show  nextline
+ nextline
+standard reg (8._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        7000) show  nextline
+ nextline
+standard reg (9._at        : pgnp) show results bf (            ) show standard reg (=) show results bf (        8000) show  nextline
+ nextline
+standard reg (10._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (        9000) show  nextline
+ nextline
+standard reg (11._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       10000) show  nextline
+ nextline
+standard reg (12._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       11000) show  nextline
+ nextline
+standard reg (13._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       12000) show  nextline
+ nextline
+standard reg (14._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       13000) show  nextline
+ nextline
+standard reg (15._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       14000) show  nextline
+ nextline
+standard reg (16._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       15000) show  nextline
+ nextline
+standard reg (17._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       16000) show  nextline
+ nextline
+standard reg (18._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       17000) show  nextline
+ nextline
+stroke showpage
+newpath
+%%Page: Page 8
+0.500000 setlinewidth
+72 792 2 line sub moveto
+reg (  Thursday March 7 18:04:25 2019   Page 8) show
+72 720 1 line sub moveto
+standard reg (19._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       18000) show  nextline
+ nextline
+standard reg (20._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       19000) show  nextline
+ nextline
+standard reg (21._at       : pgnp) show results bf (            ) show standard reg (=) show results bf (       20000) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (             ) show bar standard reg (            Delta-method) show  nextline
+standard reg (             ) show bar standard reg (     Margin   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (         _at ) show bar  nextline
+standard reg (          1  ) show bar results bf (   184.0704   11.00796    16.72   0.000     162.0586    206.0822) show  nextline
+standard reg (          2  ) show bar results bf (   143.4823   7.938501    18.07   0.000     127.6083    159.3563) show  nextline
+standard reg (          3  ) show bar results bf (   106.5266   10.62263    10.03   0.000     85.28536    127.7679) show  nextline
+standard reg (          4  ) show bar results bf (   73.20333   15.37837     4.76   0.000     42.45238    103.9543) show  nextline
+standard reg (          5  ) show bar results bf (   43.51246   20.11682     2.16   0.034     3.286397    83.73853) show  nextline
+standard reg (          6  ) show bar results bf (     17.454   24.35091     0.72   0.476    -31.23865    66.14664) show  nextline
+standard reg (          7  ) show bar results bf (  -4.972057   27.95946    -0.18   0.859    -60.88045    50.93633) show  nextline
+standard reg (          8  ) show bar results bf (   -23.7657   30.92285    -0.77   0.445    -85.59977    38.06836) show  nextline
+standard reg (          9  ) show bar results bf (  -38.92694   33.26454    -1.17   0.246    -105.4435    27.58962) show  nextline
+standard reg (         10  ) show bar results bf (  -50.45577   35.03694    -1.44   0.155    -120.5165    19.60491) show  nextline
+standard reg (         11  ) show bar results bf (  -58.35219   36.32044    -1.61   0.113    -130.9794    14.27502) show  nextline
+standard reg (         12  ) show bar results bf (   -62.6162   37.22794    -1.68   0.098    -137.0581    11.82567) show  nextline
+standard reg (         13  ) show bar results bf (   -63.2478   37.91168    -1.67   0.100    -139.0569    12.56128) show  nextline
+standard reg (         14  ) show bar results bf (    -60.247   38.56968    -1.56   0.123    -137.3718    16.87785) show  nextline
+standard reg (         15  ) show bar results bf (  -53.61378   39.44692    -1.36   0.179    -132.4928    25.26522) show  nextline
+standard reg (         16  ) show bar results bf (  -43.34816   40.82432    -1.06   0.293    -124.9814    38.28511) show  nextline
+standard reg (         17  ) show bar results bf (  -29.45013   42.99038    -0.69   0.496    -115.4147    56.51445) show  nextline
+standard reg (         18  ) show bar results bf (  -11.91969   46.19965    -0.26   0.797    -104.3016    80.46221) show  nextline
+standard reg (         19  ) show bar results bf (    9.24316   50.63474     0.18   0.856    -92.00727    110.4936) show  nextline
+standard reg (         20  ) show bar results bf (   34.03842    56.3913     0.60   0.548    -78.72295    146.7998) show  nextline
+standard reg (         21  ) show bar results bf (   62.46608   63.48979     0.98   0.329    -64.48959    189.4218) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (72) show moveto
+input reg (. marginsplot) show  nextline
+ nextline
+standard reg (  Variables that uniquely identify margins: pgnp) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (73) show moveto
+input reg (. estimates restore model2) show  nextline
+standard reg (\(results ) show link reg (model2) show bs bs bs bs bs bs clear cp stroke moveto cp newpath moveto clear cp 9 .05 mul setlinewidth moveto uldash uldash uldash uldash uldash uldash clear cp stroke moveto clear cp newpath moveto cp 0.500000 setlinewidth stroke moveto standard reg ( are active now\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (74) show moveto
+input reg (. estimates replay model2) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (Model ) show hilite bf (model2) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+standard reg (      Source ) show bar standard reg (       SS           df       MS      Number of obs   =) show results bf (        64) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   F\(1, 62\)        = ) show results bf (    64.10) show  nextline
+standard reg (       Model ) show bar standard reg ( ) show results bf ( 184866.972         1  184866.972   ) show standard reg (Prob > F        =) show results bf (    0.0000) show  nextline
+standard reg (    Residual ) show bar standard reg ( ) show results bf ( 178811.028        62  2884.04884   ) show standard reg (R-squared       =) show results bf (    0.5083) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash standard reg (   Adj R-squared   =) show results bf (    0.5004) show  nextline
+standard reg (       Total ) show bar standard reg ( ) show results bf (     363678        63  5772.66667   ) show standard reg (Root MSE        =   ) show results bf ( 53.703) show  nextline
+ nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash topt dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (          cm ) show bar standard reg (      Coef.   Std. Err.      t    P>|t|     [95% Conf. Interval]) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash plus dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+standard reg (      lnpgnp ) show bar results bf (  -51.35649   6.414562    -8.01   0.000    -64.17902   -38.53397) show  nextline
+standard reg (       _cons ) show bar results bf (   478.2777   42.59671    11.23   0.000     393.1281    563.4273) show  nextline
+dash dash dash dash dash dash dash dash dash dash dash dash dash bott dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash dash  nextline
+ nextline
+stroke showpage
+newpath
+%%Page: Page 9
+0.500000 setlinewidth
+72 792 2 line sub moveto
+reg (  Thursday March 7 18:04:25 2019   Page 9) show
+72 720 1 line sub moveto
+cp cp exch 10 sub exch moveto standard reg (75) show moveto
+input reg (. twoway scatter cm lnpgnp) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (76) show moveto
+input reg (. predict cmhathathat) show  nextline
+standard reg (\(option ) show standard bf (xb) show standard reg ( assumed; fitted values\)) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (77) show moveto
+input reg (. twoway scatter cm cmhathathat) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (78) show moveto
+input reg (. twoway \(scatter cm lnpgnp\) \(line cmhathathat lnpgnp, sort\) ) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (79) show moveto
+input reg (. putexcel set childmortality) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (80) show moveto
+input reg (. putexcel set /home/u0/Downloads/childmortality.xlsx) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (81) show moveto
+input reg (. putexcel set /home/u0/Downloads/childmortality.xlsx) show  nextline
+ nextline
+cp cp exch 10 sub exch moveto standard reg (82) show moveto
+input reg (. translate @Results /home/u0/Downloads/sarah, translator\(Results2ps\)) show  nextline
+stroke showpage
+%%Trailer
+%%Pages: 9
+%%EOF
